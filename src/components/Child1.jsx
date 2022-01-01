@@ -22,7 +22,7 @@ const Child1 = () => {
    }
    useEffect(()=>{
       if(click % 5 === 0 && click !== 0){
-         alert("'You have update 5 times' every 5 time")
+         alert("You have update 5 times")
       }
    }, [click]);
    
